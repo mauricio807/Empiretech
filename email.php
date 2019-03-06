@@ -7,7 +7,7 @@ $email = addcslashes($_POST['email']);
 $telefone = addcslashes($_POST['telefone']);
 $mensagem = addcslashes($_POST['msg']);
 
-$to = "mauriciomarinho807@gmail.com"; //alterar para o email de contato da AFN
+$to = "mauriciomarinho807@gmail.com"; //alterar para o email de contato 
 $subject = "Empire TECH
 $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email."\r\n".
