@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth!important;
+}
+
 body {
 	font-family: 'Quicksand', sans-serif;
 }
@@ -151,16 +155,10 @@ ul.rsociais-footer{
   padding: 8px 8px 8px 8px;
 }
 
-.rodapeTitle{
-	padding-top: 15px;
-}
 /* FIM SEÇÃO DE RODAPE */
 
 /* CARROUSEL */
 
-.carousel-inner {
-
-}
 
 /*
 @media(max-width: 786px) {
@@ -219,6 +217,42 @@ background-size: cover;
 
 .col-md-6.txt{
   text-align: justify;
+}
+.sobree{
+  padding: 50px;
+
+}
+
+.cards{
+  padding: 30px;
+  width: 100%; 
+  background-color:#F2F2F2; 
+}
+.card-img-top{
+  width: 100;
+
+}
+.titulo{
+  padding: 20px;
+}
+.footer {
+    background-color: #1C1C1C;
+}
+.footer__p--container {
+    text-align: center;
+    color: white;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer__p {
+    margin: 0px;
+}
+.footer__linha {
+    background-color:#63d32f;
+    height: 4px;
 }
 
 @media(max-width: 767px){
